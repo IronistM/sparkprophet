@@ -23,7 +23,7 @@ There are a total of 4 different metric_types:
 - total_resptime
 - total_memory
 
-There are 70 unique apps.
+There are 31 unique apps.
 
 There is 1 month of data for each app-metric combination. The data timestamps are from `2018-06-21 00:00:00` to `2018-07-21 23:55:00`.
 
@@ -31,12 +31,10 @@ This code will run FBProphet on the input.csv dataset for each app-metric combin
 
 Running on a 4 core i7, 16 gb ram laptop:
 
-| Description of Run       | Number of effective fits | Total Time |
-| :----------------------: | :----------------------: | :--------: |
-| One app all metrics      | 4                        | 13 minutes |
-| All 345 apps all metrics | 280                      | 60ish minutes |
-
-- Note: should take less time now since I didnt realize github had a size limit on files (100mb). It was originally 107mb, now it is 92mb.
+| Description of Run   | Number of effective fits | Total Time |
+| :------------------: | :----------------------: | :--------: |
+| One app all metrics  | 4                        | 13 minutes |
+| All apps all metrics | 124                      | 31 minutes |
 
 ## Installation
 
@@ -92,8 +90,8 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-| [<img src="https://avatars3.githubusercontent.com/u/9095499?v=4" width="100px;"/><br /><sub><b>Andrew Sidlo</b></sub>](https://github.com/asidlo)<br />[🤔](#ideas-asidlo "Ideas, Planning, & Feedback") [💻](https://github.com/asidlo/sparkprophet/commits?author=asidlo "Code") [🎨](#design-asidlo "Design") [✅](#tutorial-asidlo "Tutorials") [📖](https://github.com/asidlo/sparkprophet/commits?author=asidlo "Documentation") | [<img src="https://avatars1.githubusercontent.com/u/33138515?v=4" width="100px;"/><br /><sub><b>Devarsh Raghnathbhai Patel</b></sub>](https://github.com/Devarsh-UTD)<br />[🤔](#ideas-Devarsh-UTD "Ideas, Planning, & Feedback") [💻](https://github.com/asidlo/sparkprophet/commits?author=Devarsh-UTD "Code") | [<img src="https://avatars3.githubusercontent.com/u/4262190?v=4" width="100px;"/><br /><sub><b>Rohit Chauhan</b></sub>](http://www.topmist.com)<br />[🤔](#ideas-Saarus "Ideas, Planning, & Feedback") |
-| :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| [<img src="https://avatars3.githubusercontent.com/u/9095499?v=4" width="100px;"/><br /><sub><b>Andrew Sidlo</b></sub>](https://github.com/asidlo)<br />[🤔](#ideas-asidlo "Ideas, Planning, & Feedback") [💻](https://github.com/asidlo/sparkprophet/commits?author=asidlo "Code") [🎨](#design-asidlo "Design") [📖](https://github.com/asidlo/sparkprophet/commits?author=asidlo "Documentation") | [<img src="https://avatars1.githubusercontent.com/u/33138515?v=4" width="100px;"/><br /><sub><b>Devarsh Raghnathbhai Patel</b></sub>](https://github.com/Devarsh-UTD)<br />[🤔](#ideas-Devarsh-UTD "Ideas, Planning, & Feedback") [💻](https://github.com/asidlo/sparkprophet/commits?author=Devarsh-UTD "Code") | [<img src="https://avatars3.githubusercontent.com/u/4262190?v=4" width="100px;"/><br /><sub><b>Rohit Chauhan</b></sub>](http://www.topmist.com)<br />[🤔](#ideas-Saarus "Ideas, Planning, & Feedback") |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
